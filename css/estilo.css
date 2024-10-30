@@ -76,3 +76,7 @@ main .main-content .text p{
     padding: 0 5%;
 }
 /*cards*/
+main .techs .cards-container{
+    display: flex;
+    align-items: center;
+}
