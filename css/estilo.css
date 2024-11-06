@@ -119,4 +119,6 @@ main figure img{
     width: 400px;
     height: 400px;
     border-radius: 200px;
+    margin-bottom: 6%;
+    border: 1px solid #00e0f0;
 }
