@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body{
     width: 100%;
     height: 100vh;
@@ -33,7 +32,7 @@ header{
 }
 header h1{
     font-size: 2.8em;
-    font-weight: 400;
+    font-weight: 200;
     cursor: pointer;
 }
 header nav{
@@ -41,22 +40,27 @@ header nav{
     align-items: center;
 }
 header nav a{
-    font-size: 2em;
-    margin-right: 1.4em;
-    padding: 14px;
+    margin-right: 1.5em; 
+    font-size: 1.3em;
+    padding: 10px;
 }
 header nav a: :nth-child(4){
-    margin-right: 0em;
+    margin-right: 0;
+}
+header h1, a{
+    color: #fFF;
 }
 header h1:hover, a:hover{
-    color: #00E0FF;
+    color: #00e0f0;
 }
+/*MAIN*/
 main{
     padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+/*MAIN CONTENT*/
 main .main-content{
     display: flex;
     flex-direction: column;
@@ -75,15 +79,16 @@ main .main-content .text p{
     line-height: 1.6em;
     padding: 0 5%;
 }
-/*cards*/
+/*CARDS*/
 main .techs .cards-container{
     display: flex;
     align-items: center;
 }
+/*CARDS*/
 main .techs .cards-container .card{
     width: 120px;
     height: 120px;
-    padding: 10%;
+    padding: 10px;
     background-color: #eee;
     border-radius: 8px;
     margin-right: 1.8em;
